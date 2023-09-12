@@ -1,8 +1,10 @@
 class MyStack {
 public:
     MyStack() {
-               
+        
+        
     }
+     
     
     void push(int x) {
        
@@ -30,8 +32,8 @@ public:
       return  q.empty();
        
     }
-    private:
-    queue<int> q; // Declare the queue as a private member variable.
+ private:
+    queue<int> q;   // Declare the queue as a private member variable.
 
 };
 
